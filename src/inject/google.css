@@ -1,0 +1,10 @@
+[dir='rtl'] {
+	font-size:1em;
+	line-height: 2.5em;
+}
+input[dir='rtl'] {
+    font-size: 0.5em;
+}
+.g [dir='rtl'] {
+	text-align: right!important;
+}

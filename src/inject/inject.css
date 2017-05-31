@@ -1,0 +1,39 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@font-face {
+    font-family: 'Noto';
+    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/NotoUrdu.ttf');
+}
+
+:lang(ur) 	{
+	font-family: 'Noto'!important;
+	direction:rtl!important;
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+}
+
+*[dir="rtl"], .tweet-text-rtl, .u-dir[dir="rtl"] {
+	font-family: 'Noto'!important;
+	direction:rtl!important;
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+}
+
+._5p3y[dir="ltr"] *[dir="rtl"] {
+	font-family: 'Noto'!important;
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+	direction:rtl!important;
+}
+
+._5p3y[dir="ltr"] *[dir="rtl"] a {
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+}
+
+.ayah .translation small {
+	font-family: 'Noto'!important;
+	line-height: 3rem!important;
+	word-spacing: 0.2em!important;
+}

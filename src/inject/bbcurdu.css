@@ -1,0 +1,41 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@font-face {
+    font-family: 'Noto';
+    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/NotoUrdu.ttf');
+}
+
+:lang(ur) 	{
+	font-family: 'Noto'!important;
+	direction:rtl;
+	line-height: 3rem!important;
+	font-size: 1rem!important;
+}
+.navigation-wide-list__link span, .navigation__more-button span {
+    line-height: 18px!important;
+    font-size: 12px!important;
+}
+*[dir="rtl"], .u-dir[dir="rtl"] {
+	font-family: 'Noto'!important;
+	direction:rtl;
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+}
+
+.hard-news-unit--high .hard-news-unit__summary, p.hard-news-unit__summary, p.top-stories-promo-story__summary {
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+}
+
+h3.hard-news-unit__headline a {
+	font-size: 1.5rem!important;
+	line-height: 3.8rem!important;
+}
+
+.story-body p {
+	font-size: 1em!important;
+    font-size: 1rem!important;
+    line-height: 3rem!important;
+    line-height: 2.5;
+}
