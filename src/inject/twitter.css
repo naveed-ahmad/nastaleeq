@@ -2,33 +2,41 @@
  * Place your custom CSS styles here.
  **/
 @font-face {
-    font-family: 'Noto';
-    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/NotoUrdu.ttf');
+    font-family: 'Mehr';
+    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/MehrUrdu.ttf');
 }
 
 :lang(ur) 	{
-	font-family: 'Noto'!important;
+	font-family: 'Mehr'!important;
 	direction:rtl;
-	line-height: 3rem;
+	font-size: 1.3rem;
+    line-height: 3rem;
 }
 
 *[dir="rtl"], .tweet-text-rtl, .u-dir[dir="rtl"] {
-	font-family: 'Noto'!important;
+	font-family: 'Mehr'!important;
 	direction:rtl;
-	line-height: 3rem;
+	font-size: 1.3rem;
+    line-height: 3rem;
 }
 
-.TweetTextSize:lang(ur) {
+.TweetTextSize:lang(ur), .TweetTextSize.TweetTextSize--normal:lang(ur) {
+    font-size: 1.3rem;
     line-height: 3rem;
-    font-size: 1rem;
 }
 
 .TweetTextSize.TweetTextSize--jumbo:lang(ur) {
-	line-height: 4rem;
-    font-size: 1.5rem;
+	line-height: 3.7rem;
+    font-size: 1.8rem;
+}
+
+.QuoteTweet-text[dir="rtl"] {
+	font-size: 1.2rem;
+    line-height: 2.5rem;
+    padding: 1rem;
 }
 
 h1.AdaptiveSearchTitle-title[dir="rtl"] {
-    font-size: 1.2em;
-    line-height: 3.3em;
+    font-size: 1.8em;
+    line-height: 3.7em;
 }

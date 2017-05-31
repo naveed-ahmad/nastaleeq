@@ -2,7 +2,7 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
   "name": "Nastaleeq",
-  "version": "2.2",
+  "version": "2.3",
   "manifest_version": 2,
   "description": "Get the pretty urdu font everywhere on the web - Supports, Facebook, Twitter, Google - For issues email: waqas@opensource.com.pk",
   "homepage_url": "https://twitter.com/waqas_x",

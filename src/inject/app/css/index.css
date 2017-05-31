@@ -1,10 +1,10 @@
 /* reset5 © 2011 opensource.736cs.com MIT */
 @font-face {
-    font-family: 'NotoUrdu';
-    src: url("../../NotoUrdu.ttf");
+    font-family: 'MehrUrdu';
+    src: url("../../MehrUrdu.ttf");
 }
 * {
-    font-family: 'NotoUrdu';
+    font-family: sans-serif;
     box-sizing:border-box;
     margin: 0;
     padding: 0
@@ -18,8 +18,8 @@ html {
 }
 
 body {
-    font-family: 'NotoUrdu';
-    font-size: 87.5%;
+    font-family: sans-serif;
+    font-size: 97.5%;
     line-height: 24px;
     color: #222;
 }
@@ -30,16 +30,15 @@ body {
     margin-bottom: 5px;
 }
 .menu button {
-    height:20px;
-    line-height: 0px;
-    padding-top:10px;
-    padding-bottom:12px;
-    margin:5px 3px 0px 3px;
+    line-height: 1rem;
+    padding: 5px;
+    margin:5px 1px 0px 1px;
 }
 button, .button {
   background: #E2C463;
   border: 0px;
   padding: 5px;
+  font-family: sans-serif;
   border-bottom: 3px solid #D0A358;
 }
 button.twitter {
@@ -98,11 +97,14 @@ td {
     vertical-align: top
 }
 #editor {
-    font-family: "NotoUrdu";
-    font-size: 15px;
-    line-height: 45px;
+    font-family: "MehrUrdu";
+    font-size: 40px;
+    line-height: 3rem;
 }
-
+#keyboard .branah-label-natural, .branah-label-shift {
+    font-family: "MehrUrdu";
+    font-size: 20px;
+}
 rb {
     color: #057cb5;
     font-size: 100%;

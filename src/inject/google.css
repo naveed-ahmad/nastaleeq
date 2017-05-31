@@ -1,10 +1,21 @@
+@font-face {
+    font-family: 'Mehr';
+    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/MehrUrdu.ttf');
+}
+
 [dir='rtl'] {
-	font-size:1em;
-	line-height: 2.5em;
+	font-size:1.3rem;
+	font-family: 'Mehr'!important;
+	line-height: 3rem;
 }
 input[dir='rtl'] {
-    font-size: 0.5em;
+    font-size:1.3rem;
+    line-height: 3rem;
+    font-family: 'Mehr'!important;
 }
 .g [dir='rtl'] {
 	text-align: right!important;
+	font-family: 'Mehr'!important;
+	line-height: 3rem;
+	font-size:1.3rem;
 }
