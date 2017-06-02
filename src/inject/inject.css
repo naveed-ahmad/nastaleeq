@@ -9,32 +9,32 @@
 :lang(ur) 	{
 	font-family: 'Mehr'!important;
 	direction:rtl!important;
-	font-size: 1.3rem!important;
-	line-height: 3rem!important;
+	font-size: 1.1rem!important;
+	line-height: 2.7rem!important;
 }
 
 *[dir="rtl"], .tweet-text-rtl, .u-dir[dir="rtl"] {
 	font-family: 'Mehr'!important;
 	direction:rtl!important;
-	font-size: 1.3rem!important;
-	line-height: 3rem!important;
+	font-size: 1.1rem!important;
+	line-height: 2.7rem!important;
 }
 
 ._5p3y[dir="ltr"] *[dir="rtl"] {
 	font-family: 'Mehr'!important;
-	font-size: 1.3rem!important;
-	line-height: 3rem!important;
+	font-size: 1.1rem!important;
+	line-height: 2.7rem!important;
 	direction:rtl!important;
 }
 
 ._5p3y[dir="ltr"] *[dir="rtl"] a {
-	font-size: 1.3rem!important;
-	line-height: 3rem!important;
+	font-size: 1.1rem!important;
+	line-height: 2.7rem!important;
 }
 
 .ayah .translation small {
 	font-family: 'Mehr'!important;
-	font-size: 1.3rem!important;
-	line-height: 3rem!important;
+	font-size: 1.1rem!important;
+	line-height: 2.7rem!important;
 	word-spacing: 0.2em!important;
 }
